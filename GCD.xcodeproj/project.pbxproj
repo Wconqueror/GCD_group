@@ -15,6 +15,7 @@
 		18806D2321A796730003810F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18806D2221A796730003810F /* main.m */; };
 		18806D2D21A796730003810F /* GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18806D2C21A796730003810F /* GCDTests.m */; };
 		18806D3821A796730003810F /* GCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18806D3721A796730003810F /* GCDUITests.m */; };
+		D3EA3A0921D0DDA200E48E33 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA3A0821D0DDA200E48E33 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18806D3321A796730003810F /* GCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18806D3721A796730003810F /* GCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDUITests.m; sourceTree = "<group>"; };
 		18806D3921A796730003810F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EA3A0721D0DDA200E48E33 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		D3EA3A0821D0DDA200E48E33 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				18806D1421A796700003810F /* AppDelegate.m */,
 				18806D1621A796700003810F /* ViewController.h */,
 				18806D1721A796700003810F /* ViewController.m */,
+				D3EA3A0721D0DDA200E48E33 /* MyView.h */,
+				D3EA3A0821D0DDA200E48E33 /* MyView.m */,
 				18806D1921A796700003810F /* Main.storyboard */,
 				18806D1C21A796720003810F /* Assets.xcassets */,
 				18806D1E21A796720003810F /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EA3A0921D0DDA200E48E33 /* MyView.m in Sources */,
 				18806D1821A796700003810F /* ViewController.m in Sources */,
 				18806D2321A796730003810F /* main.m in Sources */,
 				18806D1521A796700003810F /* AppDelegate.m in Sources */,
